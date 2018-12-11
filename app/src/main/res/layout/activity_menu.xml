@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bg"
+    android:background="@drawable/bg2"
     tools:context=".MenuActivity">
 
     <Button
@@ -13,24 +13,50 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="389dp"
+        android:layout_marginTop="215dp"
         android:background="@color/colorPrimary"
         android:text="Gallery"
-        android:textSize="30dp"
         android:textColor="@color/white"
+        android:textSize="30dp"
         android:textStyle="bold" />
 
     <Button
         android:id="@+id/btnedit"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="426dp"
+        android:layout_marginTop="145dp"
         android:background="@color/colorPrimary"
         android:text="Edit"
-        android:textSize="30dp"
         android:textColor="@color/white"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnplace"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="233dp"
+        android:background="@color/colorPrimary"
+        android:text="Location"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnvideo"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="161dp"
+        android:background="@color/colorPrimary"
+        android:text="Hiburan"
+        android:textColor="@color/white"
+        android:textSize="30dp"
         android:textStyle="bold" />
 
 </RelativeLayout>

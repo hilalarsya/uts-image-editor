@@ -14,6 +14,8 @@ public class MenuActivity extends AppCompatActivity{
         setContentView(R.layout.activity_menu);
         Button btngal = (Button) findViewById(R.id.btngal);
         Button btnedit = (Button) findViewById(R.id.btnedit);
+        Button btnvideo = (Button) findViewById(R.id.btnvideo);
+        Button btnplace = (Button) findViewById(R.id.btnplace);
 
         btngal.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -30,6 +32,24 @@ public class MenuActivity extends AppCompatActivity{
                 // TODO Auto-generated method stub
                 Intent inte2 = new Intent(MenuActivity.this, EditActivity.class);
                 startActivity(inte2);
+            }
+        });
+
+        btnvideo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View arg0) {
+                // TODO Auto-generated method stub
+                Intent inte3 = new Intent(MenuActivity.this, MediaActivity.class);
+                startActivity(inte3);
+            }
+        });
+
+        btnplace.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View arg0) {
+                // TODO Auto-generated method stub
+                Intent inte4 = new Intent(MenuActivity.this, MapActivity.class);
+                startActivity(inte4);
             }
         });
 
